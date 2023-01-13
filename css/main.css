@@ -14,11 +14,15 @@ body {
 }
 
 .section {
-    min-height: 500px;
+    min-height: 100vh;
     background-image: url('../images/bg.png');
     background-size: cover;
     padding-left: 1rem;
     padding-right: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .content {
